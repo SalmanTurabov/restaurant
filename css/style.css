@@ -32,8 +32,6 @@ body {
     /* margin-right: 268px; */
 }
 
-.nav {}
-
 .nav-item {
     text-decoration: none;
     color: #FFF;
@@ -63,20 +61,14 @@ body {
     right: 15px;
 }
 
-.phone {}
-
 .phone-holder {
     display: flex;
     align-items: center;
 }
 
-.phone-img {}
-
 .phone-img-logo {
     padding-right: 8px;
 }
-
-.number {}
 
 .num {
     text-decoration: none;
@@ -89,7 +81,7 @@ body {
 
 }
 
-.num:hover{
+.num:hover {
     color: #e9a5a5;
 }
 
@@ -100,8 +92,6 @@ body {
     font-weight: 400;
     line-height: normal;
 }
-
-.btn {}
 
 .button {
     color: #FFF;
@@ -117,5 +107,4 @@ body {
 
 .button:hover {
     background-color: #9c4e0e;
-
 }
