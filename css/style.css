@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@300;400;500;600;700;800&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=PT+Serif:wght@400;700&family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Roboto:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-image: url(../img/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    /* Измените размер фонового изображения, чтобы оно покрывало весь контейнер, даже если оно должно растянуть изображение или немного обрезать один из краев. Тюе картинка будет растягиваться на весь монитор равномерно в блоке с классом .header */
+    background-size: cover;
+}
+
+.container {
+    margin: 0px 166px;
+}
+
+.header-line {
+    padding-top: 50px;
+    /* чтобы наши элементы выстроились в ряд */
+    display: flex;
+    /* выровним наши элементы по вертикали по центру по линни нашего главного элемента */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-logo {
+    /* margin-right: 268px; */
+}
+
+.nav {}
+
+.nav-item {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 25px;
+    transition: color 0.2s linear;
+}
+
+.nav-item:hover {
+    color: #e9a5a5;
+
+}
+
+.cart {
+    border-right: 1px solid #fff;
+    height: 51px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.cart-img {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+
+.phone {}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+.phone-img {}
+
+.phone-img-logo {
+    padding-right: 8px;
+}
+
+.number {}
+
+.num {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: color 0.2s linear;
+
+}
+
+.num:hover{
+    color: #e9a5a5;
+}
+
+.phone-text {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn {}
+
+.button {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    background-color: #ff7400;
+    padding: 14px 19px;
+    transition: background-color 0.2s linear;
+}
+
+.button:hover {
+    background-color: #9c4e0e;
+
+}
