@@ -30,10 +30,6 @@ body {
     justify-content: space-around;
 }
 
-.header-logo {
-    /* margin-right: 268px; */
-}
-
 .nav-item {
     text-decoration: none;
     color: #FFF;
