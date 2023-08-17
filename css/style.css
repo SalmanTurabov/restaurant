@@ -12,6 +12,7 @@ body {
 .header {
     background-image: url(../img/bg.jpg);
     height: 100vh;
+    height: 800px;
     background-repeat: no-repeat;
     /* Измените размер фонового изображения, чтобы оно покрывало весь контейнер, даже если оно должно растянуть изображение или немного обрезать один из краев. Тюе картинка будет растягиваться на весь монитор равномерно в блоке с классом .header */
     background-size: cover;
@@ -80,7 +81,7 @@ body {
 }
 
 .num:hover {
-    color:#969393;
+    color: #969393;
 }
 
 .phone-text {
@@ -174,6 +175,231 @@ body {
     transition: background-color 0.3s linear;
 }
 
-.header-button:hover{
+.header-button:hover {
     background-color: #af5812;
+}
+
+.cards {}
+
+.container {}
+
+.cards-holder {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    background-color: #FFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.10);
+    width: 349px;
+    margin-right: 31px;
+    margin-top: -80px;
+    padding: 10px 10px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.card-title {
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2C2C2C;
+    font-family: Tinos, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.card-title span {
+    color: #BC9060;
+    /* margin-left: 8px; */
+}
+
+.card-desc {
+    text-align: center;
+    color: #656363;
+    text-align: center;
+    font-family: Tinos;
+    font-size: 26px;
+    font-weight: 400;
+    /* margin-bottom: 25px; */
+}
+
+.history {
+    margin-top: 166px;
+    padding-bottom: 150px;
+}
+
+.container {}
+
+.history-title {
+    color: #000;
+    font-family: Tinos, sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.history-title span {
+    color: #BC9060;
+}
+
+.history-desc {
+    color: #656363;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 444px;
+}
+
+.history-number {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 2px;
+}
+
+.number-item {
+    margin-right: 60px;
+    text-align: center;
+    color: #BC9060;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.number-item:last-child {
+    margin-right: 0;
+}
+
+.number-item span {
+    display: block;
+    color: #000;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.history-holder {
+    display: flex;
+    /* margin-bottom: 130px; */
+    /* justify-content: space-between; */
+}
+
+.history-images {
+    position: relative;
+}
+
+.images-1 {
+    position: absolute;
+    z-index: 20;
+    top: 15px;
+    left: 80px;
+}
+
+.images-2 {
+    position: absolute;
+    z-index: 10;
+    top: -16px;
+    left: 283px;
+}
+
+.images-3 {
+    position: absolute;
+    z-index: 15;
+    top: 182px;
+    left: 378px;
+}
+
+.images-4 {
+    position: absolute;
+    z-index: 5;
+    top: 20px;
+    left: 380px;
+}
+
+.black-block {
+    background-image: url("../img/order-bg.png");
+    padding: 80px 0px;
+}
+
+.block-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.left-title {
+    color: #D67E34;
+    font-family: Tinos, sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+    width: 601px;
+}
+
+.left-text {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.right-btn {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #FF7400;
+    padding: 14px 19px;
+    border-radius: 5px;
+}
+
+.dishes-title {
+    color: #000;
+    font-family: Tinos, sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 132px;
+    margin-bottom: 139px;
+}
+
+.dishes-title span {
+    color: #D67E34;
+}
+
+.burgers {
+    display: flex;
+    justify-content: center;
+}
+
+.burgers-image {
+    margin-right: 20px;
+}
+
+.burger-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.burger-text {
+    color: #000;
+    font-family: Tinos, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 20px;
 }
