@@ -179,10 +179,6 @@ body {
     background-color: #af5812;
 }
 
-.cards {}
-
-.container {}
-
 .cards-holder {
     display: flex;
     justify-content: space-between;
@@ -234,8 +230,6 @@ body {
     margin-top: 166px;
     padding-bottom: 150px;
 }
-
-.container {}
 
 .history-title {
     color: #000;
@@ -402,4 +396,91 @@ body {
     font-size: 26px;
     font-weight: 400;
     margin-left: 20px;
+}
+
+.menu {
+    background-image: url(../img/bg-menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.menu-title {
+    color: #FFF;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: Tinos, sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 98px;
+    padding-bottom: 120px;
+}
+
+.menu-items {
+    display: flex;
+    gap: 30px;
+    /* justify-content: center; */
+
+}
+
+.menu-item {
+    background-color: #fff;
+    text-align: center;
+    width: 33%;
+    padding-top: 80px;
+    padding-bottom: 43px;
+    /* margin-right: 20px; */
+}
+
+.menu-image {
+    position: relative;
+
+}
+
+.menu-img {
+    border-radius: 50%;
+}
+
+.price-img {
+    position: absolute;
+    bottom: 5px;
+    right: 30px;
+}
+
+.price-420 {
+    position: absolute;
+    bottom: 37px;
+    right: 58px;
+    color: #fff;
+    font-family: Cookie;
+    font-size: 30px;
+}
+
+.menu-text {
+    color: #000;
+    font-family: Tinos;
+    font-size: 26px;
+    padding-top: 16px;
+}
+
+.menu-subtext {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-top: 17px;
+}
+
+.menu-button {
+    margin-top: 20px;
+}
+
+.menu-btn {
+    background: #D67E34;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    padding: 14px 67px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
 }
